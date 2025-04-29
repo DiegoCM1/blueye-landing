@@ -70,7 +70,7 @@ export default function HeroHome() {
               data-aos="zoom-y-out"
               data-aos-delay={150}
             >
-              Protect Your Future with AI-Driven Hurricane Alerts
+              Stay Safe Before, During, and After Hurricanes - BluEye{" "}
             </h1>
             <div className="mx-auto max-w-3xl">
               <p
@@ -89,8 +89,8 @@ export default function HeroHome() {
                   data-aos-delay={450}
                 >
                   <a
+                    href="#waitlist"
                     className="btn group mb-4 w-full bg-linear-to-t from-blue-600 to-blue-500 bg-[length:100%_100%] bg-[bottom] text-white shadow-sm hover:bg-[length:100%_150%] sm:mb-0 sm:w-auto"
-                    href="#0"
                   >
                     <span className="relative inline-flex items-center">
                       Join the Waitlist
