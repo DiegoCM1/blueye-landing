@@ -1,6 +1,6 @@
 export const metadata = {
-  title: "Home - Simple",
-  description: "Page description",
+  title: "BluEyes",
+  description: "BluEyes is your personalized hurricane prevention system. Get real-time alerts, tailored safety advice, and early warnings powered by AI. Protect yourself, your family, and your community with BluEyes.",
 };
 
 import Hero from "@/components/hero-home";
