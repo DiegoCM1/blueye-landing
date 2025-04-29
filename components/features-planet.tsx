@@ -84,7 +84,7 @@ export default function FeaturesPlanet() {
                   stroke-width="2"
                   stroke-linecap="round"
                   stroke-linejoin="round"
-                  class="lucide lucide-radar-icon lucide-radar"
+                  className="lucide lucide-radar-icon lucide-radar"
                 >
                   <path d="M19.07 4.93A10 10 0 0 0 6.99 3.34" />
                   <path d="M4 6h.01" />
@@ -114,7 +114,7 @@ export default function FeaturesPlanet() {
                   stroke-width="2"
                   stroke-linecap="round"
                   stroke-linejoin="round"
-                  class="lucide lucide-wifi-off-icon lucide-wifi-off"
+                  className="lucide lucide-wifi-off-icon lucide-wifi-off"
                 >
                   <path d="M12 20h.01" />
                   <path d="M8.5 16.429a5 5 0 0 1 7 0" />
@@ -144,7 +144,7 @@ export default function FeaturesPlanet() {
                   stroke-width="2"
                   stroke-linecap="round"
                   stroke-linejoin="round"
-                  class="lucide lucide-brain-cog-icon lucide-brain-cog"
+                  className="lucide lucide-brain-cog-icon lucide-brain-cog"
                 >
                   <path d="m10.852 14.772-.383.923" />
                   <path d="m10.852 9.228-.383-.923" />
@@ -182,7 +182,7 @@ export default function FeaturesPlanet() {
                   stroke-width="2"
                   stroke-linecap="round"
                   stroke-linejoin="round"
-                  class="lucide lucide-map-icon lucide-map"
+                  className="lucide lucide-map-icon lucide-map"
                 >
                   <path d="M14.106 5.553a2 2 0 0 0 1.788 0l3.659-1.83A1 1 0 0 1 21 4.619v12.764a1 1 0 0 1-.553.894l-4.553 2.277a2 2 0 0 1-1.788 0l-4.212-2.106a2 2 0 0 0-1.788 0l-3.659 1.83A1 1 0 0 1 3 19.381V6.618a1 1 0 0 1 .553-.894l4.553-2.277a2 2 0 0 1 1.788 0z" />
                   <path d="M15 5.764v15" />
@@ -207,7 +207,7 @@ export default function FeaturesPlanet() {
                   stroke-width="2"
                   stroke-linecap="round"
                   stroke-linejoin="round"
-                  class="lucide lucide-heart-pulse-icon lucide-heart-pulse"
+                  className="lucide lucide-heart-pulse-icon lucide-heart-pulse"
                 >
                   <path d="M19 14c1.49-1.46 3-3.21 3-5.5A5.5 5.5 0 0 0 16.5 3c-1.76 0-3 .5-4.5 2-1.5-1.5-2.74-2-4.5-2A5.5 5.5 0 0 0 2 8.5c0 2.3 1.5 4.05 3 5.5l7 7Z" />
                   <path d="M3.22 12H9.5l.5-1 2 4.5 2-7 1.5 3.5h5.27" />
@@ -231,7 +231,7 @@ export default function FeaturesPlanet() {
                   stroke-width="2"
                   stroke-linecap="round"
                   stroke-linejoin="round"
-                  class="lucide lucide-globe-icon lucide-globe"
+                  className="lucide lucide-globe-icon lucide-globe"
                 >
                   <circle cx="12" cy="12" r="10" />
                   <path d="M12 2a14.5 14.5 0 0 0 0 20 14.5 14.5 0 0 0 0-20" />
