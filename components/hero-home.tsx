@@ -78,7 +78,7 @@ export default function HeroHome() {
                 data-aos="zoom-y-out"
                 data-aos-delay={300}
               >
-                BluEyes delivers real-time personalized guidance to help you
+                BluEye delivers real-time personalized guidance to help you
                 prepare, survive, and recover from hurricanes — powered by
                 cutting-edge AI technology and recognized by Meta.
               </p>
@@ -100,10 +100,10 @@ export default function HeroHome() {
                     </span>
                   </a>
                   <a
+                    href="#featuresList"
                     className="btn w-full bg-white text-gray-800 shadow-sm hover:bg-gray-50 sm:ml-4 sm:w-auto"
-                    href="#0"
                   >
-                    Learn About BluEyes
+                    Learn About BluEye
                   </a>
                 </div>
               </div>
