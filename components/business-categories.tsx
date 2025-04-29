@@ -1,10 +1,10 @@
 import Image from "next/image";
-import Logo01 from "@/public/images/blueye-logo.svg";
+import Logo01 from "@/public/images/blueye-logo.png";
 import Logo02 from "@/public/images/ollama-logo.png";
 import Logo03 from "@/public/images/meta-logo.png";
 import Logo04 from "@/public/images/mexico-logo.jpg";
 import Logo05 from "@/public/images/open-weather-logo.png";
-import Logo06 from "@/public/images/ollama-logo.png";
+import Logo06 from "@/public/images/noaa-logo.png";
 import Logo07 from "@/public/images/ollama-logo.png";
 import Logo08 from "@/public/images/ollama-logo.png";
 import Logo09 from "@/public/images/ollama-logo.png";
@@ -178,10 +178,10 @@ export default function BusinessCategories() {
               <div className="animate-[breath_8s_ease-in-out_infinite_both]">
                 <div className="flex h-24 w-24 items-center justify-center rounded-full bg-white shadow-lg shadow-black/[0.03] before:absolute before:inset-0 before:m-[8.334%] before:rounded-[inherit] before:border before:border-gray-700/5 before:bg-gray-200/60 before:[mask-image:linear-gradient(to_bottom,black,transparent)]">
                   <Image
-                    className="relative"
+                    className="relative rounded-full"
                     src={Logo01}
-                    width={32}
-                    height={32}
+                    width={53}
+                    height={53}
                     alt="Logo 01"
                   />
                 </div>
@@ -196,8 +196,8 @@ export default function BusinessCategories() {
                       <Image
                         className="relative"
                         src={Logo02}
-                        width={23}
-                        height={22}
+                        width={30}
+                        height={30}
                         alt="Logo 02"
                       />
                     </div>
@@ -209,8 +209,8 @@ export default function BusinessCategories() {
                       <Image
                         className="relative"
                         src={Logo03}
-                        width={22}
-                        height={22}
+                        width={35}
+                        height={35}
                         alt="Logo 03"
                       />
                     </div>
@@ -220,10 +220,10 @@ export default function BusinessCategories() {
                   <div className="animate-[breath_6s_ease-in-out_3.5s_infinite_both]">
                     <div className="flex h-20 w-20 items-center justify-center rounded-full bg-white shadow-lg shadow-black/[0.03] before:absolute before:inset-0 before:m-[8.334%] before:rounded-[inherit] before:border before:border-gray-700/5 before:bg-gray-200/60 before:[mask-image:linear-gradient(to_bottom,black,transparent)]">
                       <Image
-                        className="relative"
+                        className="relative rounded-full"
                         src={Logo04}
-                        width={24}
-                        height={22}
+                        width={50}
+                        height={50}
                         alt="Logo 04"
                       />
                     </div>
@@ -233,10 +233,10 @@ export default function BusinessCategories() {
                   <div className="animate-[breath_6s_ease-in-out_1.5s_infinite_both]">
                     <div className="flex h-20 w-20 items-center justify-center rounded-full bg-white shadow-lg shadow-black/[0.03] before:absolute before:inset-0 before:m-[8.334%] before:rounded-[inherit] before:border before:border-gray-700/5 before:bg-gray-200/60 before:[mask-image:linear-gradient(to_bottom,black,transparent)]">
                       <Image
-                        className="relative"
+                        className="relative rounded-full"
                         src={Logo05}
-                        width={25}
-                        height={25}
+                        width={45}
+                        height={45}
                         alt="Logo 05"
                       />
                     </div>
@@ -246,10 +246,10 @@ export default function BusinessCategories() {
                   <div className="animate-[breath_6s_ease-in-out_2s_infinite_both]">
                     <div className="flex h-20 w-20 items-center justify-center rounded-full bg-white shadow-lg shadow-black/[0.03] before:absolute before:inset-0 before:m-[8.334%] before:rounded-[inherit] before:border before:border-gray-700/5 before:bg-gray-200/60 before:[mask-image:linear-gradient(to_bottom,black,transparent)]">
                       <Image
-                        className="relative"
+                        className="relative rounded-full"
                         src={Logo06}
-                        width={20}
-                        height={18}
+                        width={35}
+                        height={35}
                         alt="Logo 06"
                       />
                     </div>
@@ -261,8 +261,8 @@ export default function BusinessCategories() {
                       <Image
                         className="relative"
                         src={Logo07}
-                        width={25}
-                        height={25}
+                        width={30}
+                        height={30}
                         alt="Logo 07"
                       />
                     </div>
