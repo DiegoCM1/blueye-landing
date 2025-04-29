@@ -14,7 +14,7 @@ export default function FeaturesPlanet() {
           {/* Section header */}
           <div className="mx-auto max-w-3xl pb-16 text-center md:pb-20">
             <h2 className="text-3xl font-bold text-gray-200 md:text-4xl">
-              Simple helps your teams work more efficiently together
+              Hurricane safety, powered by AI. Wherever you are.
             </h2>
           </div>
           {/* Planet */}
@@ -42,28 +42,28 @@ export default function FeaturesPlanet() {
                       src={PlanetTagImg01}
                       width={253}
                       height={56}
-                      alt="Tag 01"
+                      alt="Real-Time Alerts"
                     />
                     <Image
                       className="absolute left-56 top-7 z-10 animate-[float_4s_ease-in-out_infinite_1s_both] opacity-30 transition-opacity duration-500"
                       src={PlanetTagImg02}
                       width={241}
                       height={56}
-                      alt="Tag 02"
+                      alt="Offline Emergency Mode"
                     />
                     <Image
                       className="absolute -left-20 bottom-24 z-10 animate-[float_4s_ease-in-out_infinite_2s_both] opacity-25 transition-opacity duration-500"
                       src={PlanetTagImg03}
                       width={243}
                       height={56}
-                      alt="Tag 03"
+                      alt="Crowdsourced Safety Map"
                     />
                     <Image
                       className="absolute bottom-32 left-64 z-10 animate-[float_4s_ease-in-out_infinite_3s_both] opacity-80 transition-opacity duration-500"
                       src={PlanetTagImg04}
                       width={251}
                       height={56}
-                      alt="Tag 04"
+                      alt="AI Stress-Adaptive Guidance"
                     />
                   </div>
                 </div>
@@ -75,113 +75,173 @@ export default function FeaturesPlanet() {
             <article>
               <h3 className="mb-2 flex items-center space-x-2 font-medium text-gray-200">
                 <svg
-                  className="fill-blue-500"
                   xmlns="http://www.w3.org/2000/svg"
-                  width={16}
-                  height={16}
+                  width="24"
+                  height="24"
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  stroke="currentColor"
+                  stroke-width="2"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  class="lucide lucide-radar-icon lucide-radar"
                 >
-                  <path d="M2 4a2 2 0 0 1 2-2h8a2 2 0 0 1 2 2v8a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2V4Zm2-4a4 4 0 0 0-4 4v8a4 4 0 0 0 4 4h8a4 4 0 0 0 4-4V4a4 4 0 0 0-4-4H4Zm1 10a1 1 0 1 0 0 2h6a1 1 0 1 0 0-2H5Z" />
+                  <path d="M19.07 4.93A10 10 0 0 0 6.99 3.34" />
+                  <path d="M4 6h.01" />
+                  <path d="M2.29 9.62A10 10 0 1 0 21.31 8.35" />
+                  <path d="M16.24 7.76A6 6 0 1 0 8.23 16.67" />
+                  <path d="M12 18h.01" />
+                  <path d="M17.99 11.66A6 6 0 0 1 15.77 16.67" />
+                  <circle cx="12" cy="12" r="2" />
+                  <path d="m13.41 10.59 5.66-5.66" />
                 </svg>
-                <span>Instant Analytics</span>
+                <span>Real-Time Hurricane Tracking</span>
               </h3>
               <p className="text-[15px] text-gray-400">
-                Collect essential insights about how visitors are using your
-                site with in-depth page view metrics like pages, referring
-                sites, and more.
+                Stay updated with live storm alerts based on official data,
+                directly tied to your location and risk zone.
               </p>
             </article>
             <article>
               <h3 className="mb-2 flex items-center space-x-2 font-medium text-gray-200">
                 <svg
-                  className="fill-blue-500"
                   xmlns="http://www.w3.org/2000/svg"
-                  width={16}
-                  height={16}
+                  width="24"
+                  height="24"
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  stroke="currentColor"
+                  stroke-width="2"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  class="lucide lucide-wifi-off-icon lucide-wifi-off"
                 >
-                  <path d="M14.29 2.614a1 1 0 0 0-1.58-1.228L6.407 9.492l-3.199-3.2a1 1 0 1 0-1.414 1.415l4 4a1 1 0 0 0 1.496-.093l7-9ZM1 14a1 1 0 1 0 0 2h14a1 1 0 1 0 0-2H1Z" />
+                  <path d="M12 20h.01" />
+                  <path d="M8.5 16.429a5 5 0 0 1 7 0" />
+                  <path d="M5 12.859a10 10 0 0 1 5.17-2.69" />
+                  <path d="M19 12.859a10 10 0 0 0-2.007-1.523" />
+                  <path d="M2 8.82a15 15 0 0 1 4.177-2.643" />
+                  <path d="M22 8.82a15 15 0 0 0-11.288-3.764" />
+                  <path d="m2 2 20 20" />
                 </svg>
-                <span>Metadata</span>
+                <span>Offline Emergency Mode</span>
               </h3>
               <p className="text-[15px] text-gray-400">
-                Collect essential insights about how visitors are using your
-                site with in-depth page view metrics like pages, referring
-                sites, and more.
+                When the network drops, BluEye doesn’t — offline shelter maps,
+                survival strategies, key contacts, and smart AI help keep you
+                safe.{" "}
               </p>
             </article>
             <article>
               <h3 className="mb-2 flex items-center space-x-2 font-medium text-gray-200">
                 <svg
-                  className="fill-blue-500"
                   xmlns="http://www.w3.org/2000/svg"
-                  width={16}
-                  height={16}
+                  width="24"
+                  height="24"
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  stroke="currentColor"
+                  stroke-width="2"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  class="lucide lucide-brain-cog-icon lucide-brain-cog"
                 >
-                  <path
-                    d="M2.248 6.285a1 1 0 0 1-1.916-.57A8.014 8.014 0 0 1 5.715.332a1 1 0 0 1 .57 1.916 6.014 6.014 0 0 0-4.037 4.037Z"
-                    opacity=".3"
-                  />
-                  <path d="M8 11a3 3 0 1 1 0-6 3 3 0 0 1 0 6Zm0-2a1 1 0 1 0 0-2 1 1 0 0 0 0 2Zm1.715-6.752a1 1 0 0 1 .57-1.916 8.014 8.014 0 0 1 5.383 5.383 1 1 0 1 1-1.916.57 6.014 6.014 0 0 0-4.037-4.037Zm4.037 7.467a1 1 0 1 1 1.916.57 8.014 8.014 0 0 1-5.383 5.383 1 1 0 1 1-.57-1.916 6.014 6.014 0 0 0 4.037-4.037Zm-7.467 4.037a1 1 0 1 1-.57 1.916 8.014 8.014 0 0 1-5.383-5.383 1 1 0 1 1 1.916-.57 6.014 6.014 0 0 0 4.037 4.037Z" />
+                  <path d="m10.852 14.772-.383.923" />
+                  <path d="m10.852 9.228-.383-.923" />
+                  <path d="m13.148 14.772.382.924" />
+                  <path d="m13.531 8.305-.383.923" />
+                  <path d="m14.772 10.852.923-.383" />
+                  <path d="m14.772 13.148.923.383" />
+                  <path d="M17.598 6.5A3 3 0 1 0 12 5a3 3 0 0 0-5.63-1.446 3 3 0 0 0-.368 1.571 4 4 0 0 0-2.525 5.771" />
+                  <path d="M17.998 5.125a4 4 0 0 1 2.525 5.771" />
+                  <path d="M19.505 10.294a4 4 0 0 1-1.5 7.706" />
+                  <path d="M4.032 17.483A4 4 0 0 0 11.464 20c.18-.311.892-.311 1.072 0a4 4 0 0 0 7.432-2.516" />
+                  <path d="M4.5 10.291A4 4 0 0 0 6 18" />
+                  <path d="M6.002 5.125a3 3 0 0 0 .4 1.375" />
+                  <path d="m9.228 10.852-.923-.383" />
+                  <path d="m9.228 13.148-.923.383" />
+                  <circle cx="12" cy="12" r="3" />
                 </svg>
-                <span>SEO &amp; Performance</span>
+                <span>Personalized AI Guidance</span>
               </h3>
               <p className="text-[15px] text-gray-400">
-                Collect essential insights about how visitors are using your
-                site with in-depth page view metrics like pages, referring
-                sites, and more.
+                Our AI adapts recommendations based on your critical needs,
+                delivering custom advice to stay safe before, during and after
+                the hurricane.
               </p>
             </article>
             <article>
               <h3 className="mb-2 flex items-center space-x-2 font-medium text-gray-200">
                 <svg
-                  className="fill-blue-500"
                   xmlns="http://www.w3.org/2000/svg"
-                  width={16}
-                  height={16}
+                  width="24"
+                  height="24"
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  stroke="currentColor"
+                  stroke-width="2"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  class="lucide lucide-map-icon lucide-map"
                 >
-                  <path d="M8 0a1 1 0 0 1 1 1v14a1 1 0 1 1-2 0V1a1 1 0 0 1 1-1Zm6 3a1 1 0 0 0-1 1v8a1 1 0 0 0 1 1h1a1 1 0 1 1 0 2h-1a3 3 0 0 1-3-3V4a3 3 0 0 1 3-3h1a1 1 0 1 1 0 2h-1ZM1 1a1 1 0 0 0 0 2h1a1 1 0 0 1 1 1v8a1 1 0 0 1-1 1H1a1 1 0 1 0 0 2h1a3 3 0 0 0 3-3V4a3 3 0 0 0-3-3H1Z" />
+                  <path d="M14.106 5.553a2 2 0 0 0 1.788 0l3.659-1.83A1 1 0 0 1 21 4.619v12.764a1 1 0 0 1-.553.894l-4.553 2.277a2 2 0 0 1-1.788 0l-4.212-2.106a2 2 0 0 0-1.788 0l-3.659 1.83A1 1 0 0 1 3 19.381V6.618a1 1 0 0 1 .553-.894l4.553-2.277a2 2 0 0 1 1.788 0z" />
+                  <path d="M15 5.764v15" />
+                  <path d="M9 3.236v15" />
                 </svg>
-                <span>Custom Code</span>
+                <span>Crowdsourced Safety Map</span>
               </h3>
               <p className="text-[15px] text-gray-400">
-                Collect essential insights about how visitors are using your
-                site with in-depth page view metrics like pages, referring
-                sites, and more.
+                After the storm, users can share updates about flooded zones,
+                blocked roads, and shelter conditions.
               </p>
             </article>
             <article>
               <h3 className="mb-2 flex items-center space-x-2 font-medium text-gray-200">
                 <svg
-                  className="fill-blue-500"
                   xmlns="http://www.w3.org/2000/svg"
-                  width={16}
-                  height={16}
+                  width="24"
+                  height="24"
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  stroke="currentColor"
+                  stroke-width="2"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  class="lucide lucide-heart-pulse-icon lucide-heart-pulse"
                 >
-                  <path d="M10.284.33a1 1 0 1 0-.574 1.917 6.049 6.049 0 0 1 2.417 1.395A1 1 0 0 0 13.5 2.188 8.034 8.034 0 0 0 10.284.33ZM6.288 2.248A1 1 0 0 0 5.718.33 8.036 8.036 0 0 0 2.5 2.187a1 1 0 0 0 1.372 1.455 6.036 6.036 0 0 1 2.415-1.395ZM1.42 5.401a1 1 0 0 1 .742 1.204 6.025 6.025 0 0 0 0 2.79 1 1 0 0 1-1.946.462 8.026 8.026 0 0 1 0-3.714A1 1 0 0 1 1.421 5.4Zm2.452 6.957A1 1 0 0 0 2.5 13.812a8.036 8.036 0 0 0 3.216 1.857 1 1 0 0 0 .574-1.916 6.044 6.044 0 0 1-2.417-1.395Zm9.668.04a1 1 0 0 1-.041 1.414 8.033 8.033 0 0 1-3.217 1.857 1 1 0 1 1-.571-1.917 6.035 6.035 0 0 0 2.415-1.395 1 1 0 0 1 1.414.042Zm2.242-6.255a1 1 0 1 0-1.946.462 6.03 6.03 0 0 1 0 2.79 1 1 0 1 0 1.946.462 8.022 8.022 0 0 0 0-3.714Z" />
+                  <path d="M19 14c1.49-1.46 3-3.21 3-5.5A5.5 5.5 0 0 0 16.5 3c-1.76 0-3 .5-4.5 2-1.5-1.5-2.74-2-4.5-2A5.5 5.5 0 0 0 2 8.5c0 2.3 1.5 4.05 3 5.5l7 7Z" />
+                  <path d="M3.22 12H9.5l.5-1 2 4.5 2-7 1.5 3.5h5.27" />
                 </svg>
-                <span>Localization</span>
+                <span>Stress-Resilient Communication</span>
               </h3>
               <p className="text-[15px] text-gray-400">
-                Collect essential insights about how visitors are using your
-                site with in-depth page view metrics like pages, referring
-                sites, and more.
+                BluEye reduces emotional overload during critical moments,
+                providing clear, calming support when you need it most.
               </p>
             </article>
             <article>
               <h3 className="mb-2 flex items-center space-x-2 font-medium text-gray-200">
                 <svg
-                  className="fill-blue-500"
                   xmlns="http://www.w3.org/2000/svg"
-                  width={16}
-                  height={16}
+                  width="24"
+                  height="24"
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  stroke="currentColor"
+                  stroke-width="2"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  class="lucide lucide-globe-icon lucide-globe"
                 >
-                  <path d="M9 1a1 1 0 1 0-2 0v6a1 1 0 0 0 2 0V1ZM4.572 3.08a1 1 0 0 0-1.144-1.64A7.987 7.987 0 0 0 0 8a8 8 0 0 0 16 0c0-2.72-1.36-5.117-3.428-6.56a1 1 0 1 0-1.144 1.64A5.987 5.987 0 0 1 14 8 6 6 0 1 1 2 8a5.987 5.987 0 0 1 2.572-4.92Z" />
+                  <circle cx="12" cy="12" r="10" />
+                  <path d="M12 2a14.5 14.5 0 0 0 0 20 14.5 14.5 0 0 0 0-20" />
+                  <path d="M2 12h20" />
                 </svg>
-                <span>Canonical URL</span>
+                <span>Global Expansion Vision</span>
               </h3>
               <p className="text-[15px] text-gray-400">
-                Collect essential insights about how visitors are using your
-                site with in-depth page view metrics like pages, referring
-                sites, and more.
+                Designed for replication across coastal zones worldwide —
+                starting in Mexico, but built for the world.
               </p>
             </article>
           </div>
