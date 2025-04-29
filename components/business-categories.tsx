@@ -2,12 +2,12 @@ import Image from "next/image";
 import Logo01 from "@/public/images/blueye-logo.png";
 import Logo02 from "@/public/images/ollama-logo.png";
 import Logo03 from "@/public/images/meta-logo.png";
-import Logo04 from "@/public/images/mexico-logo.jpg";
+import Logo04 from "@/public/images/mexico-logo.png";
 import Logo05 from "@/public/images/open-weather-logo.png";
 import Logo06 from "@/public/images/noaa-logo.png";
-import Logo07 from "@/public/images/ollama-logo.png";
-import Logo08 from "@/public/images/ollama-logo.png";
-import Logo09 from "@/public/images/ollama-logo.png";
+import Logo07 from "@/public/images/cenapred-logo.png";
+import Logo08 from "@/public/images/proteccion-civil-logo.png";
+import Logo09 from "@/public/images/cruz-roja-logo.jpg";
 
 export default function BusinessCategories() {
   return (
