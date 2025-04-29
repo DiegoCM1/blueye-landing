@@ -84,7 +84,7 @@ export default function HeroHome() {
                     href="#waitlist"
                     className="btn group mb-4 w-full bg-linear-to-t from-blue-600 to-blue-500 bg-[length:100%_100%] bg-[bottom] text-white shadow-sm hover:bg-[length:100%_150%] sm:mb-0 sm:w-auto"
                   >
-                    <span className="relative inline-flex items-center">
+                    <span className="relative inline-flex items-center justify-center w-full">
                       Join the Waitlist
                       <span className="ml-1 tracking-normal text-blue-300 transition-transform group-hover:translate-x-0.5">
                         -&gt;
@@ -95,7 +95,9 @@ export default function HeroHome() {
                     href="#featuresList"
                     className="btn w-full bg-white text-gray-800 shadow-sm hover:bg-gray-50 sm:ml-4 sm:w-auto"
                   >
-                    Learn About BluEye
+                    <span className="relative inline-flex items-center justify-center w-full">
+                      Learn About BluEye
+                    </span>
                   </a>
                 </div>
               </div>
