@@ -12,14 +12,13 @@ import Logo09 from "@/public/images/cruz-roja-logo.jpg";
 export default function BusinessCategories() {
   return (
     <section>
-      <div className="mx-auto max-w-6xl px-4 sm:px-6">
-      <h2 className="text-3xl font-bold my-6 text-center">Our business partners</h2>
+      <div className="mx-auto max-w-6xl px-4 md:py-28">
+        <h2 className="text-3xl font-bold my-6 text-center md:text-4xl lg:text-5xl md:pb-13">Our main business partners and alliances</h2>
 
-        <div className="pb-12 md:pb-20">
-          {/* Tab panels */}
-          <div className="relative flex h-[324px] items-center justify-center overflow-x-hidden">
-            {/* Small blue dots */}
-            <div className="absolute -z-10 scale-75 md:scale-100">
+        <div className="pb-12 md:pb-28">
+          <div className="relative flex h-[324px] items-center justify-center overflow-x-hidden md:h-[500px]">
+                      {/* Small blue dots */}
+                      <div className="absolute -z-10 scale-75 md:scale-100">
               <svg
                 className="fill-blue-500"
                 xmlns="http://www.w3.org/2000/svg"
@@ -167,11 +166,10 @@ export default function BusinessCategories() {
             <div className="absolute inset-x-0 bottom-0 -z-10 h-px bg-linear-to-r from-transparent via-gray-200 to-transparent mix-blend-multiply"></div>
             <div className="absolute inset-x-[100px] md:inset-x-[200px] top-1/2 -z-10 h-px bg-linear-to-r from-transparent via-blue-500/60 to-transparent mix-blend-multiply"></div>
 
-            {/* Logos */}
-            {/* Center logo */}
+            {/* Center logo - made larger */}
             <div className="absolute before:absolute before:-inset-3 before:animate-[spin_3s_linear_infinite] before:rounded-full before:border before:border-transparent before:[mask-composite:exclude_!important] before:[mask:linear-gradient(white_0_0)_padding-box,_linear-gradient(white_0_0)] before:[background:conic-gradient(from_180deg,transparent,var(--color-blue-500))_border-box]">
               <div className="animate-[breath_8s_ease-in-out_infinite_both]">
-                <div className="flex h-16 w-16 md:h-24 md:w-24 items-center justify-center rounded-full bg-white shadow-lg shadow-black/[0.03] before:absolute before:inset-0 before:m-[8.334%] before:rounded-[inherit] before:border before:border-gray-700/5 before:bg-gray-200/60 before:[mask-image:linear-gradient(to_bottom,black,transparent)]">
+                <div className="flex h-16 w-16 md:h-32 md:w-32 lg:h-40 lg:w-40 items-center justify-center rounded-full bg-white shadow-lg shadow-black/[0.03] before:absolute before:inset-0 before:m-[8.334%] before:rounded-[inherit] before:border before:border-gray-700/5 before:bg-gray-200/60 before:[mask-image:linear-gradient(to_bottom,black,transparent)]">
                   <Image
                     className="relative rounded-full"
                     src={Logo01}
@@ -185,10 +183,10 @@ export default function BusinessCategories() {
 
             <div className="relative flex flex-col">
               <article className="flex h-full w-full items-center justify-center">
-                {/* Side logos */}
-                <div className="absolute -translate-x-[80px] md:-translate-x-[136px]">
+                {/* Side logos - increased translation and size */}
+                <div className="absolute -translate-x-[80px] md:-translate-x-[200px] lg:-translate-x-[250px]">
                   <div className="animate-[breath_7s_ease-in-out_3s_infinite_both]">
-                    <div className="flex h-12 w-12 md:h-16 md:w-16 items-center justify-center rounded-full bg-white shadow-lg">
+                    <div className="flex h-12 w-12 md:h-24 md:w-24 lg:h-28 lg:w-28 items-center justify-center rounded-full bg-white shadow-lg">
                       <Image
                         className="relative"
                         src={Logo02}
@@ -200,9 +198,9 @@ export default function BusinessCategories() {
                   </div>
                 </div>
 
-                <div className="absolute translate-x-[80px] md:translate-x-[136px]">
+                <div className="absolute translate-x-[80px] md:translate-x-[200px] lg:translate-x-[250px]">
                   <div className="animate-[breath_7s_ease-in-out_3.5s_infinite_both]">
-                    <div className="flex h-12 w-12 md:h-16 md:w-16 items-center justify-center rounded-full bg-white shadow-lg">
+                    <div className="flex h-12 w-12 md:h-24 md:w-24 lg:h-28 lg:w-28 items-center justify-center rounded-full bg-white shadow-lg">
                       <Image
                         className="relative"
                         src={Logo03}
@@ -214,10 +212,10 @@ export default function BusinessCategories() {
                   </div>
                 </div>
 
-                {/* Corner logos */}
-                <div className="absolute -translate-x-[120px] -translate-y-[60px] md:-translate-x-[216px] md:-translate-y-[82px]">
+                {/* Corner logos - increased translation and size */}
+                <div className="absolute -translate-x-[120px] -translate-y-[60px] md:-translate-x-[300px] md:-translate-y-[150px] lg:-translate-x-[350px] lg:-translate-y-[180px]">
                   <div className="animate-[breath_6s_ease-in-out_3.5s_infinite_both]">
-                    <div className="flex h-14 w-14 md:h-20 md:w-20 items-center justify-center rounded-full bg-white shadow-lg">
+                    <div className="flex h-14 w-14 md:h-28 md:w-28 lg:h-32 lg:w-32 items-center justify-center rounded-full bg-white shadow-lg">
                       <Image
                         className="relative rounded-full"
                         src={Logo04}
@@ -229,9 +227,9 @@ export default function BusinessCategories() {
                   </div>
                 </div>
 
-                <div className="absolute translate-x-[120px] -translate-y-[60px] md:translate-x-[216px] md:-translate-y-[82px]">
+                <div className="absolute translate-x-[120px] -translate-y-[60px] md:translate-x-[300px] md:-translate-y-[150px] lg:translate-x-[350px] lg:-translate-y-[180px]">
                   <div className="animate-[breath_6s_ease-in-out_1.5s_infinite_both]">
-                    <div className="flex h-14 w-14 md:h-20 md:w-20 items-center justify-center rounded-full bg-white shadow-lg">
+                    <div className="flex h-14 w-14 md:h-28 md:w-28 lg:h-32 lg:w-32 items-center justify-center rounded-full bg-white shadow-lg">
                       <Image
                         className="relative rounded-full"
                         src={Logo05}
@@ -243,9 +241,9 @@ export default function BusinessCategories() {
                   </div>
                 </div>
 
-                <div className="absolute translate-x-[120px] translate-y-[60px] md:translate-x-[216px] md:translate-y-[82px]">
+                <div className="absolute translate-x-[120px] translate-y-[60px] md:translate-x-[300px] md:translate-y-[150px] lg:translate-x-[350px] lg:translate-y-[180px]">
                   <div className="animate-[breath_6s_ease-in-out_2s_infinite_both]">
-                    <div className="flex h-14 w-14 md:h-20 md:w-20 items-center justify-center rounded-full bg-white shadow-lg">
+                    <div className="flex h-14 w-14 md:h-28 md:w-28 lg:h-32 lg:w-32 items-center justify-center rounded-full bg-white shadow-lg">
                       <Image
                         className="relative rounded-full"
                         src={Logo06}
@@ -257,9 +255,9 @@ export default function BusinessCategories() {
                   </div>
                 </div>
 
-                <div className="absolute -translate-x-[120px] translate-y-[60px] md:-translate-x-[216px] md:translate-y-[82px]">
+                <div className="absolute -translate-x-[120px] translate-y-[60px] md:-translate-x-[300px] md:translate-y-[150px] lg:-translate-x-[350px] lg:translate-y-[180px]">
                   <div className="animate-[breath_6s_ease-in-out_2.5s_infinite_both]">
-                    <div className="flex h-14 w-14 md:h-20 md:w-20 items-center justify-center rounded-full bg-white shadow-lg">
+                    <div className="flex h-14 w-14 md:h-28 md:w-28 lg:h-32 lg:w-32 items-center justify-center rounded-full bg-white shadow-lg">
                       <Image
                         className="relative"
                         src={Logo07}
@@ -271,10 +269,10 @@ export default function BusinessCategories() {
                   </div>
                 </div>
 
-                {/* Small corner logos */}
-                <div className="absolute -translate-x-[160px] md:-translate-x-[292px] opacity-40">
+                {/* Small corner logos - increased translation and slightly larger size */}
+                <div className="absolute -translate-x-[160px] md:-translate-x-[400px] lg:-translate-x-[450px] opacity-40">
                   <div className="animate-[breath_6s_ease-in-out_2s_infinite_both]">
-                    <div className="flex h-8 w-8 md:h-12 md:w-12 items-center justify-center rounded-full border border-gray-200/60 bg-white shadow-lg">
+                    <div className="flex h-8 w-8 md:h-16 md:w-16 lg:h-20 lg:w-20 items-center justify-center rounded-full border border-gray-200/60 bg-white shadow-lg">
                       <Image
                         className="relative"
                         src={Logo08}
@@ -286,9 +284,9 @@ export default function BusinessCategories() {
                   </div>
                 </div>
 
-                <div className="absolute translate-x-[160px] md:translate-x-[292px] opacity-40">
+                <div className="absolute translate-x-[160px] md:translate-x-[400px] lg:translate-x-[450px] opacity-40">
                   <div className="animate-[breath_6s_ease-in-out_4s_infinite_both]">
-                    <div className="flex h-8 w-8 md:h-12 md:w-12 items-center justify-center rounded-full border border-gray-200/60 bg-white shadow-lg">
+                    <div className="flex h-8 w-8 md:h-16 md:w-16 lg:h-20 lg:w-20 items-center justify-center rounded-full border border-gray-200/60 bg-white shadow-lg">
                       <Image
                         className="relative"
                         src={Logo09}
