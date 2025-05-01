@@ -13,44 +13,109 @@ export default function TeamMembers() {
       <div className="mx-auto max-w-6xl px-4 sm:px-6">
         <div className="pb-12 pt-32 md:pb-20 md:pt-40">
           <div className="pb-12 text-center md:pb-16">
-            <h2 className="mb-6 text-3xl font-bold md:text-5xl text-blue-100" data-aos="zoom-y-out">
+            <h2
+              className="mb-6 text-3xl font-bold md:text-5xl text-blue-100"
+              data-aos="zoom-y-out"
+            >
               Meet the BluEye Team
             </h2>
-            <p className="mb-8 text-lg text-blue-100" data-aos="zoom-y-out" data-aos-delay={150}>
-              We're a team of developers, designers, and innovators passionate about protecting lives through technology. Our goal is simple: make hurricane response smarter, faster, and accessible to everyone.
+            <p
+              className="mb-8 text-lg text-blue-100"
+              data-aos="zoom-y-out"
+              data-aos-delay={150}
+            >
+              We’re a multidisciplinary team of engineers, designers, and strategists combining AI, empathy, and real-world insight to make disaster prevention smarter and more human. From tech to execution, everything we build is grounded in impact.
             </p>
           </div>
 
           {/* Team grid */}
-          <div className="grid grid-cols-1 gap-10 sm:grid-cols-2 lg:grid-cols-3">
+          <div className="grid grid-cols-1 gap-10 md:grid-cols-2 lg:grid-cols-3">
             <div className="text-center" data-aos="fade-up">
-              <Image className="mx-auto mb-4 h-24 w-24 rounded-full object-cover shadow-lg" src={Avatar01} alt="Valentina Veraza" />
+              <Image
+                className="mx-auto mb-4 h-24 w-24 rounded-full object-cover shadow-lg"
+                src={Avatar01}
+                alt="Valentina Veraza"
+              />
               <h3 className="text-xl font-semibold">Amy Valentina Veraza</h3>
-              <p className="text-sm text-blue-100">Computer Engineering student at UNAM’s Faculty of Engineering. Interface and UX design lead, creating user-friendly experiences that support calm decision-making in emergency situations.</p>
+              <p className="text-sm text-blue-100">
+              Key contributor to BluEye’s AI integration, connecting intelligent systems with real-time user needs. Technically sharp and versatile, she also supports the frontend experience with clean, scalable code — making her a vital force behind both the logic and the look of the app.
+              </p>
             </div>
 
-            <div className="text-center" data-aos="fade-up" data-aos-delay={100}>
-              <Image className="mx-auto mb-4 h-24 w-24 rounded-full object-cover shadow-lg" src={Avatar02} alt="Victor Veraza" />
-              <h3 className="text-xl font-semibold">Victor Joohvan Veraza</h3>
-              <p className="text-sm text-blue-100">Bachelor’s student in Computer Science at the Instituto Politécnico Nacional. Leads backend logic and database infrastructure, ensuring system resilience and stability during high-stress disaster scenarios.</p>
-            </div>
-
-            <div className="text-center" data-aos="fade-up" data-aos-delay={200}>
-              <Image className="mx-auto mb-4 h-24 w-24 rounded-full object-cover shadow-lg" src={Avatar03} alt="Héctor Iván Reséndiz" />
+            <div
+              className="text-center"
+              data-aos="fade-up"
+              data-aos-delay={200}
+            >
+              <Image
+                className="mx-auto mb-4 h-24 w-24 rounded-full object-cover shadow-lg"
+                src={Avatar03}
+                alt="Héctor Iván Reséndiz"
+              />
               <h3 className="text-xl font-semibold">Héctor Iván Reséndiz</h3>
-              <p className="text-sm text-blue-100">AI engineer building personalized responses and helping BluEye understand what users need in real time.</p>
+              <p className="text-sm text-blue-100">
+              MBA graduate and product strategist with a sharp eye for business value. As BluEye’s Product Manager, he bridges the gap between innovation and user impact — ensuring the technology we build solves real-world problems at scale and with purpose.
+              </p>
             </div>
 
-            <div className="text-center" data-aos="fade-up" data-aos-delay={300}>
-              <Image className="mx-auto mb-4 h-24 w-24 rounded-full object-cover shadow-lg" src={Avatar04} alt="Edgar Humberto Del Campo" />
-              <h3 className="text-xl font-semibold">Edgar Humberto Del Campo</h3>
-              <p className="text-sm text-blue-100">Computer Engineering student at UNAM's Faculty of Engineering. Focused on offline-first system architecture, ensuring BluEye remains functional in areas with low or no connectivity. Dedicated to operational reliability under extreme conditions.</p>
-            </div>
-
-            <div className="text-center" data-aos="fade-up" data-aos-delay={400}>
-              <Image className="mx-auto mb-4 h-24 w-24 rounded-full object-cover shadow-lg" src={Avatar05} alt="Luis Diego Colin" />
+            <div
+              className="text-center"
+              data-aos="fade-up"
+              data-aos-delay={400}
+            >
+              <Image
+                className="mx-auto mb-4 h-24 w-24 rounded-full object-cover shadow-lg"
+                src={Avatar05}
+                alt="Luis Diego Colin"
+              />
               <h3 className="text-xl font-semibold">Luis Diego Colin</h3>
-              <p className="text-sm text-blue-100">Self-taught developer and AI product builder focused on solving real-world problems through scalable technology. Leads the project’s vision, strategy, and product design.</p>
+              <p className="text-sm text-blue-100">
+                Lead Frontend Developer and Prompt Engineer behind BluEye’s
+                AI-powered interface. With a strong grasp of both product and
+                business strategy, Diego bridges technical execution with
+                user-focused design. His rare ability to move between code, design, and business thinking makes him a very valuable asset to the team.
+              </p>
+            </div>
+
+            <div
+              className="text-center"
+              data-aos="fade-up"
+              data-aos-delay={100}
+            >
+              <Image
+                className="mx-auto mb-4 h-24 w-24 rounded-full object-cover shadow-lg"
+                src={Avatar02}
+                alt="Victor Veraza"
+              />
+              <h3 className="text-xl font-semibold">Victor Joohvan Veraza</h3>
+              <p className="text-sm text-blue-100">
+                Business-minded and detail-oriented, Victor plays a key role in
+                BluEye’s research and validation processes. He ensures every
+                decision is backed by user needs, data, and real-world context —
+                helping the team stay grounded while scaling smart.
+              </p>
+            </div>
+
+            <div
+              className="text-center"
+              data-aos="fade-up"
+              data-aos-delay={300}
+            >
+              <Image
+                className="mx-auto mb-4 h-24 w-24 rounded-full object-cover shadow-lg"
+                src={Avatar04}
+                alt="Edgar Humberto Del Campo"
+              />
+              <h3 className="text-xl font-semibold">
+                Edgar Humberto Del Campo
+              </h3>
+              <p className="text-sm text-blue-100">
+                A backend-focused developer who played a key role in integrating
+                BluEye’s AI engine with real-time infrastructure. Edgar brings
+                strong technical skills to the table, ensuring that the logic,
+                data flow, and AI responses remain stable, fast, and reliable
+                under pressure.
+              </p>
             </div>
           </div>
         </div>
