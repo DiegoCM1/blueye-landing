@@ -9,17 +9,19 @@ import FeaturesPlanet from "@/components/features-planet";
 import LargeTestimonial from "@/components/large-testimonial";
 import Cta from "@/components/cta";
 import WaitlistForm from "@/components/waitlistForm";
+import TeamMembers from "@/components/team-members";
 
 
 export default function Home() {
   return (
     <>
       <Hero />
-      <BusinessCategories />
       <FeaturesPlanet />
+      <BusinessCategories />
       <LargeTestimonial />
       <WaitlistForm />
       <Cta />
+      <TeamMembers />
     </>
   );
 }
