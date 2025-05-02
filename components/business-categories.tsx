@@ -12,18 +12,18 @@ import Logo09 from "@/public/images/cruz-roja-logo.jpg";
 export default function BusinessCategories() {
   return (
     <section>
-      <div className="mx-auto max-w-6xl px-4 md:py-28">
-        <h2 className="text-3xl font-bold my-6 text-center md:text-4xl lg:text-5xl md:pb-13">Our main business partners and alliances</h2>
+      <div className="mx-auto max-w-6xl px-4 md:pt-34">
+        <h2 className="text-3xl font-bold my-6 text-center md:text-4xl lg:text-5xl md:pb-8">
+          Our main business partners and alliances
+        </h2>
 
         <div className="pb-12 md:pb-28">
           <div className="relative flex h-[324px] items-center justify-center overflow-x-hidden md:h-[500px]">
-                      {/* Small blue dots */}
-                      <div className="absolute -z-10 scale-75 md:scale-100">
+            {/* Small blue dots */}
+            <div className="absolute -z-10 w-full max-w-[164px] scale-[0.7] sm:scale-75 md:scale-100 md:max-w-[300px] lg:max-w-[400px]">
               <svg
-                className="fill-blue-500"
+                className="w-full h-auto fill-blue-500"
                 xmlns="http://www.w3.org/2000/svg"
-                width={164}
-                height={41}
                 viewBox="0 0 164 41"
               >
                 <circle cx={1} cy={8} r={1} fillOpacity="0.24" />
@@ -120,12 +120,11 @@ export default function BusinessCategories() {
               </svg>
             </div>
             {/* Blue glow */}
-            <div className="absolute -z-10 scale-75 md:scale-100">
+            <div className="absolute -z-10 scale-75 md:scale-100 w-full">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
-                width={432}
-                height={160}
                 viewBox="0 0 432 160"
+                className="w-full"
               >
                 <g opacity="0.6" filter="url(#filter0_f_2044_9)">
                   <path
@@ -164,17 +163,17 @@ export default function BusinessCategories() {
             {/* Lines */}
             <div className="absolute inset-x-0 top-0 -z-10 h-px bg-linear-to-r from-transparent via-gray-200 to-transparent mix-blend-multiply"></div>
             <div className="absolute inset-x-0 bottom-0 -z-10 h-px bg-linear-to-r from-transparent via-gray-200 to-transparent mix-blend-multiply"></div>
-            <div className="absolute inset-x-[100px] md:inset-x-[200px] top-1/2 -z-10 h-px bg-linear-to-r from-transparent via-blue-500/60 to-transparent mix-blend-multiply"></div>
+            <div className="absolute inset-x-[100px] md:inset-x-[200px] top-1/2 -z-10 h-px bg-linear-to-r from-transparent via-blue-500/60 to-transparent mix-blend-multiply "></div>
+
+
 
             {/* Center logo - made larger */}
             <div className="absolute before:absolute before:-inset-3 before:animate-[spin_3s_linear_infinite] before:rounded-full before:border before:border-transparent before:[mask-composite:exclude_!important] before:[mask:linear-gradient(white_0_0)_padding-box,_linear-gradient(white_0_0)] before:[background:conic-gradient(from_180deg,transparent,var(--color-blue-500))_border-box]">
               <div className="animate-[breath_8s_ease-in-out_infinite_both]">
                 <div className="flex h-16 w-16 md:h-32 md:w-32 lg:h-40 lg:w-40 items-center justify-center rounded-full bg-white shadow-lg shadow-black/[0.03] before:absolute before:inset-0 before:m-[8.334%] before:rounded-[inherit] before:border before:border-gray-700/5 before:bg-gray-200/60 before:[mask-image:linear-gradient(to_bottom,black,transparent)]">
                   <Image
-                    className="relative rounded-full"
+                    className="relative rounded-full w-4/5"
                     src={Logo01}
-                    width={50}
-                    height={50}
                     alt="Logo 01"
                   />
                 </div>
@@ -188,10 +187,8 @@ export default function BusinessCategories() {
                   <div className="animate-[breath_7s_ease-in-out_3s_infinite_both]">
                     <div className="flex h-12 w-12 md:h-24 md:w-24 lg:h-28 lg:w-28 items-center justify-center rounded-full bg-white shadow-lg">
                       <Image
-                        className="relative"
+                        className="relative w-4/5"
                         src={Logo02}
-                        width={35}
-                        height={35}
                         alt="Logo 02"
                       />
                     </div>
@@ -202,10 +199,8 @@ export default function BusinessCategories() {
                   <div className="animate-[breath_7s_ease-in-out_3.5s_infinite_both]">
                     <div className="flex h-12 w-12 md:h-24 md:w-24 lg:h-28 lg:w-28 items-center justify-center rounded-full bg-white shadow-lg">
                       <Image
-                        className="relative"
+                        className="relative w-4/5"
                         src={Logo03}
-                        width={35}
-                        height={35}
                         alt="Logo 03"
                       />
                     </div>
@@ -217,7 +212,7 @@ export default function BusinessCategories() {
                   <div className="animate-[breath_6s_ease-in-out_3.5s_infinite_both]">
                     <div className="flex h-14 w-14 md:h-28 md:w-28 lg:h-32 lg:w-32 items-center justify-center rounded-full bg-white shadow-lg">
                       <Image
-                        className="relative rounded-full"
+                        className="relative rounded-full w-4/5"
                         src={Logo04}
                         width={45}
                         height={45}
@@ -231,10 +226,8 @@ export default function BusinessCategories() {
                   <div className="animate-[breath_6s_ease-in-out_1.5s_infinite_both]">
                     <div className="flex h-14 w-14 md:h-28 md:w-28 lg:h-32 lg:w-32 items-center justify-center rounded-full bg-white shadow-lg">
                       <Image
-                        className="relative rounded-full"
+                        className="relative rounded-full w-4/5"
                         src={Logo05}
-                        width={45}
-                        height={45}
                         alt="Logo 05"
                       />
                     </div>
@@ -245,10 +238,8 @@ export default function BusinessCategories() {
                   <div className="animate-[breath_6s_ease-in-out_2s_infinite_both]">
                     <div className="flex h-14 w-14 md:h-28 md:w-28 lg:h-32 lg:w-32 items-center justify-center rounded-full bg-white shadow-lg">
                       <Image
-                        className="relative rounded-full"
+                        className="relative rounded-full w-4/5"
                         src={Logo06}
-                        width={35}
-                        height={35}
                         alt="Logo 06"
                       />
                     </div>
@@ -259,10 +250,8 @@ export default function BusinessCategories() {
                   <div className="animate-[breath_6s_ease-in-out_2.5s_infinite_both]">
                     <div className="flex h-14 w-14 md:h-28 md:w-28 lg:h-32 lg:w-32 items-center justify-center rounded-full bg-white shadow-lg">
                       <Image
-                        className="relative"
+                        className="relative rounded-full w-4/5"
                         src={Logo07}
-                        width={35}
-                        height={35}
                         alt="Logo 07"
                       />
                     </div>
@@ -274,10 +263,8 @@ export default function BusinessCategories() {
                   <div className="animate-[breath_6s_ease-in-out_2s_infinite_both]">
                     <div className="flex h-8 w-8 md:h-16 md:w-16 lg:h-20 lg:w-20 items-center justify-center rounded-full border border-gray-200/60 bg-white shadow-lg">
                       <Image
-                        className="relative"
+                        className="relative rounded-full w-4/5"
                         src={Logo08}
-                        width={25}
-                        height={25}
                         alt="Logo 08"
                       />
                     </div>
@@ -288,10 +275,8 @@ export default function BusinessCategories() {
                   <div className="animate-[breath_6s_ease-in-out_4s_infinite_both]">
                     <div className="flex h-8 w-8 md:h-16 md:w-16 lg:h-20 lg:w-20 items-center justify-center rounded-full border border-gray-200/60 bg-white shadow-lg">
                       <Image
-                        className="relative"
+                        className="relative rounded-full w-4/5"
                         src={Logo09}
-                        width={25}
-                        height={25}
                         alt="Logo 09"
                       />
                     </div>
