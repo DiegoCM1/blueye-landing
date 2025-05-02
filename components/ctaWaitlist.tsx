@@ -44,10 +44,12 @@ export default function CtaWithWaitlist() {
             <div className="flex flex-col gap-12 md:flex-row md:justify-between md:items-start">
               {/* Waitlist Column */}
               <div className="flex-1 text-center md:text-left">
-                <h3 className="text-2xl font-semibold mb-2">Join the Waitlist</h3>
+                <h3 className="text-2xl font-semibold mb-2">
+                  Join the Waitlist
+                </h3>
                 <p className="text-gray-600 mb-6 max-w-md mx-auto md:mx-0">
-                  Get early access to BluEyes and stay ahead of the storm. You'll
-                  be notified as soon as we launch.
+                  Get early access to BluEyes and stay ahead of the storm.
+                  You'll be notified as soon as we launch.
                 </p>
 
                 <form
@@ -78,20 +80,36 @@ export default function CtaWithWaitlist() {
               </div>
 
               {/* Divider on mobile */}
-              <div className="block md:hidden border-t border-gray-200 my-2 w-full" />
+              <div className="block lg:hidden border-t border-gray-200 my-2 w-full" />
 
               {/* Get In Touch Column */}
               <div className="flex-1 text-center md:text-left">
                 <h3 className="text-2xl font-semibold mb-2">Get in Touch</h3>
                 <p className="text-gray-600 mb-6 max-w-md mx-auto md:mx-0">
-                  Want to collaborate, invest, or help in another way? Let’s talk!
-                  Reach out and join our mission.
+                  Want to collaborate, invest, or help in another way? Let’s
+                  talk! Reach out and join our mission.
                 </p>
 
-                <div className="flex justify-center md:justify-start">
+                <div className="flex justify-center lg:justify-start">
+                  {/* Mobile: mailto link */}
                   <a
-                    className="btn group w-full sm:w-auto bg-gradient-to-t from-blue-600 to-blue-500 text-white shadow-md hover:to-blue-400 px-6 py-2 rounded-md"
                     href="mailto:BluEyeHurricaneAlerts@gmail.com?subject=Hi%20there!&body=BluEye%20Team%20invites%20you%20to%20share%20your%20concerns%20about%20hurricane%20prevention.%0A%0ADo%20you%20want%20to%20collaborate,%20help,%20or%20invest?%0AWrite%20to%20us!"
+                    className="btn group w-full sm:w-auto bg-gradient-to-t from-blue-600 to-blue-500 text-white shadow-md hover:to-blue-400 px-6 py-2 rounded-md block md:hidden"
+                  >
+                    <span className="relative inline-flex items-center">
+                      Get In Touch
+                      <span className="ml-1 text-blue-200 transition-transform group-hover:translate-x-1">
+                        →
+                      </span>
+                    </span>
+                  </a>
+
+                  {/* Desktop: Gmail compose link */}
+                  <a
+                    href="https://mail.google.com/mail/?view=cm&fs=1&to=BluEyeHurricaneAlerts@gmail.com&su=Hi%20there!&body=BluEye%20Team%20invites%20you%20to%20share%20your%20concerns%20about%20hurricane%20prevention.%0A%0ADo%20you%20want%20to%20collaborate,%20help,%20or%20invest?%0AWrite%20to%20us!"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="btn group w-full sm:w-auto bg-gradient-to-t from-blue-600 to-blue-500 text-white shadow-md hover:to-blue-400 px-6 py-2 rounded-md hidden md:block"
                   >
                     <span className="relative inline-flex items-center">
                       Get In Touch
