@@ -7,8 +7,7 @@ import Hero from "@/components/hero-home";
 import BusinessCategories from "@/components/business-categories";
 import FeaturesPlanet from "@/components/features-planet";
 import LargeTestimonial from "@/components/large-testimonial";
-import Cta from "@/components/cta";
-import WaitlistForm from "@/components/waitlistForm";
+import CtaWithWaitlist from "@/components/ctaWaitlist";
 import TeamMembers from "@/components/team-members";
 
 
@@ -16,12 +15,12 @@ export default function Home() {
   return (
     <>
       <Hero />
-      <FeaturesPlanet />
-      <BusinessCategories />
-      <LargeTestimonial />
-      <WaitlistForm />
-      <Cta />
-      <TeamMembers />
+      <FeaturesPlanet />                             
+      <BusinessCategories />     
+      <LargeTestimonial />        
+      <CtaWithWaitlist />         
+      <TeamMembers />           
     </>
   );
 }
+

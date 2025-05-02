@@ -3,7 +3,12 @@ import TestimonialImg from "@/public/images/roberto-cabezas-profile.jpeg";
 
 export default function LargeTestimonial() {
   return (
-    <section>
+    <section className="bg-gray-900 text-white py-12 md:pt-20">
+      <div className="mx-auto max-w-3xl pb-8 text-center md:pb-12">
+        <h2 className="text-3xl font-bold text-gray-200 md:text-4xl">
+          Our Testimonies.
+        </h2>
+      </div>
       <div className="mx-auto max-w-2xl px-4 sm:px-6">
         <div className="py-12 md:py-20">
           <div className="space-y-3 text-center">
@@ -29,14 +34,16 @@ export default function LargeTestimonial() {
                 alt="Large testimonial"
               />
             </div>
-            <p className="text-2xl font-bold text-gray-900">
-            “In disaster response, timing and clarity save lives. BluEye puts both directly into people’s hands, even when the grid goes down. It’s a smart, practical solution with real-world impact.”
+            <p className="text-2xl font-bold">
+              “In disaster response, timing and clarity save lives. BluEye puts
+              both directly into people’s hands, even when the grid goes down.
+              It’s a smart, practical solution with real-world impact.”
             </p>
             <div className="text-sm font-medium text-gray-500">
               <span className="text-gray-700">Roberto Cabezas</span>{" "}
               <span className="text-gray-400">/</span>{" "}
               <a className="text-blue-500" href="#0">
-              Creative Technology Director at Centro
+                Creative Technology Director at Centro
               </a>
             </div>
           </div>
