@@ -12,8 +12,8 @@ import Logo09 from "@/public/images/cruz-roja-logo.jpg";
 export default function BusinessCategories() {
   return (
     <section>
-      <div className="mx-auto max-w-6xl px-4 md:pt-34">
-        <h2 className="text-3xl font-bold my-6 text-center md:text-4xl lg:text-5xl md:pb-8">
+      <div className="mx-auto max-w-6xl px-4 md:pt-18">
+        <h2 className="text-3xl font-bold mt-6 mb-4 text-center md:text-4xl lg:text-5xl md:pb-8">
           Our main business partners and alliances
         </h2>
 
