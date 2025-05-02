@@ -1,6 +1,5 @@
 import Image from "next/image";
 import PlanetImg from "@/public/images/planet.png";
-import PlanetOverlayImg from "@/public/images/planet-overlay.svg";
 import PlanetTagImg01 from "@/public/images/planet-tag-01.png";
 import PlanetTagImg02 from "@/public/images/planet-tag-02.png";
 import PlanetTagImg03 from "@/public/images/planet-tag-03.png";
@@ -20,7 +19,7 @@ export default function FeaturesPlanet() {
           {/* Planet */}
           <div className="pb-16 md:pb-20" data-aos="zoom-y-out">
             <div className="text-center">
-              <div className="relative inline-flex rounded-full before:absolute before:inset-0 before:-z-10 before:scale-[.85] before:animate-[pulse_4s_cubic-bezier(.4,0,.6,1)_infinite] before:bg-linear-to-b before:from-blue-900 before:to-sky-700/50 before:blur-3xl after:absolute after:inset-0 after:rounded-[inherit] after:[background:radial-gradient(closest-side,var(--color-blue-500),transparent)]">
+              <div className="relative inline-flex rounded-full before:absolute before:inset-0 before:-z-10 before:scale-[.85] before:animate-[pulse_4s_cubic-bezier(.4,0,.6,1)_infinite] before:bg-linear-to-b before:from-blue-900 before:to-sky-700/50 before:blur-3xl after:absolute after:inset-0 after:rounded-[inherit] ">
                 <Image
                   className="rounded-full bg-gray-900"
                   src={PlanetImg}
@@ -29,40 +28,34 @@ export default function FeaturesPlanet() {
                   alt="Planet"
                 />
                 <div className="pointer-events-none" aria-hidden="true">
-                  <Image
-                    className="absolute -right-64 -top-20 z-10 max-w-none"
-                    src={PlanetOverlayImg}
-                    width={789}
-                    height={755}
-                    alt="Planet decoration"
-                  />
+                  {/* Planet Tags */}
                   <div>
                     <Image
-                      className="absolute -left-28 top-16 z-10 animate-[float_4s_ease-in-out_infinite_both] opacity-80 transition-opacity duration-500"
+                      className="absolute -left-0 lg:-left-28 top-16 z-10 animate-[float_4s_ease-in-out_infinite_both] opacity-80 transition-opacity duration-500 rounded-2xl h-18 w-50"
                       src={PlanetTagImg01}
                       width={253}
-                      height={56}
+                      // height={56}
                       alt="Real-Time Alerts"
                     />
                     <Image
-                      className="absolute left-56 top-7 z-10 animate-[float_4s_ease-in-out_infinite_1s_both] opacity-30 transition-opacity duration-500"
+                      className="absolute  left-50 lg:left-56 top-7 z-10 animate-[float_4s_ease-in-out_infinite_1s_both] opacity-30 transition-opacity duration-500 rounded-2xl h-18 w-50"
                       src={PlanetTagImg02}
                       width={241}
-                      height={56}
+                      // height={56}
                       alt="Offline Emergency Mode"
                     />
                     <Image
-                      className="absolute -left-20 bottom-24 z-10 animate-[float_4s_ease-in-out_infinite_2s_both] opacity-25 transition-opacity duration-500"
+                      className="absolute -left-0 lg:-left-20 bottom-24 z-10 animate-[float_4s_ease-in-out_infinite_2s_both] opacity-25 transition-opacity duration-500 rounded-2xl h-18 w-50"
                       src={PlanetTagImg03}
-                      width={243}
-                      height={56}
+                      // width={243}
+                      // height={56}
                       alt="Crowdsourced Safety Map"
                     />
                     <Image
-                      className="absolute bottom-32 left-64 z-10 animate-[float_4s_ease-in-out_infinite_3s_both] opacity-80 transition-opacity duration-500"
+                      className="absolute bottom-32 left-50 lg:left-64 z-10 animate-[float_4s_ease-in-out_infinite_3s_both] opacity-80 transition-opacity duration-500 rounded-2xl h-18 w-50"
                       src={PlanetTagImg04}
                       width={251}
-                      height={56}
+                      // height={56}
                       alt="AI Stress-Adaptive Guidance"
                     />
                   </div>
