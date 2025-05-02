@@ -40,9 +40,9 @@ export default function LargeTestimonial() {
               It’s a smart, practical solution with real-world impact.”
             </p>
             <div className="text-sm font-medium text-gray-500">
-              <span className="text-gray-700">Roberto Cabezas</span>{" "}
+              <span className="text-gray-500">Roberto Cabezas</span>{" "}
               <span className="text-gray-400">/</span>{" "}
-              <a className="text-blue-500" href="#0">
+              <a className="text-blue-500" href="https://www.linkedin.com/in/roberto-cabezas-h/">
                 Creative Technology Director at Centro
               </a>
             </div>
