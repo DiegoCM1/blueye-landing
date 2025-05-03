@@ -41,8 +41,14 @@ export default function TeamMembers() {
                   src={Avatar01}
                   alt="Valentina Veraza"
                 />
-                <h3 className="text-xl font-semibold text-blue-100">
-                  Amy Valentina Veraza
+                <h3 className="text-xl font-semibold text-blue-100 transition-colors duration-300 hover:text-blue-400">
+                  <a
+                    href="https://www.linkedin.com/in/amy-veraza-garcia-548922285/?originalSubdomain=mx"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    Amy Valentina Veraza
+                  </a>
                 </h3>
                 <p className="text-sm text-blue-100">
                   Key contributor to BluEye’s AI integration, connecting
@@ -85,9 +91,16 @@ export default function TeamMembers() {
                   src={Avatar05}
                   alt="Luis Diego Colin"
                 />
-                <h3 className="text-xl font-semibold text-blue-100">
-                  Luis Diego Colin
+                <h3 className="text-xl font-semibold text-blue-100 transition-colors duration-300 hover:text-blue-400">
+                  <a
+                    href="https://www.linkedin.com/in/luis-colin-mendiola-974679176/"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    Luis Diego Colin
+                  </a>
                 </h3>
+
                 <p className="text-sm text-blue-100">
                   Lead Frontend Developer and Prompt Engineer behind BluEye’s
                   AI-powered interface. With a strong grasp of both product and
@@ -111,8 +124,14 @@ export default function TeamMembers() {
                   src={Avatar02}
                   alt="Victor Veraza"
                 />
-                <h3 className="text-xl font-semibold text-blue-100">
-                  Victor Joohvan Veraza
+                <h3 className="text-xl font-semibold text-blue-100 transition-colors duration-300 hover:text-blue-400">
+                  <a
+                    href="https://www.linkedin.com/in/victor-joohvan-veraza-garc%C3%ADa-0500b3221/"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    Victor Joohvan Veraza
+                  </a>
                 </h3>
                 <p className="text-sm text-blue-100">
                   Business-minded and detail-oriented, Victor plays a key role
@@ -132,8 +151,14 @@ export default function TeamMembers() {
                   src={Avatar04}
                   alt="Edgar Humberto Del Campo"
                 />
-                <h3 className="text-xl font-semibold text-blue-100">
-                  Edgar Humberto Del Campo
+                <h3 className="text-xl font-semibold text-blue-100 transition-colors duration-300 hover:text-blue-400">
+                  <a
+                    href="https://www.linkedin.com/in/edgar-del-campo-8b0865156/"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    Edgar Humberto Del Campo
+                  </a>
                 </h3>
                 <p className="text-sm text-blue-100">
                   A backend-focused developer who played a key role in
