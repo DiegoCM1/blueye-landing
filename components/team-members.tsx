@@ -69,8 +69,14 @@ export default function TeamMembers() {
                   src={Avatar03}
                   alt="Héctor Iván Reséndiz"
                 />
-                <h3 className="text-xl font-semibold text-blue-100">
+                <h3 className="text-xl font-semibold text-blue-100 transition-colors duration-300 hover:text-blue-400">
+                  <a
+                    href="https://www.linkedin.com/in/hi-resendiz?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app "
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
                   Héctor Iván Reséndiz
+                  </a>
                 </h3>
                 <p className="text-sm text-blue-100">
                   MBA graduate and product strategist with a sharp eye for
