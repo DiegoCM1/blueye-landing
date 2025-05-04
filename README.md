@@ -118,6 +118,6 @@ If you are contributing technically:
 - Fork and clone the repo
 - Set up `.env` variables for API keys if needed (OpenWeather, Ollama)
 - Run local server with `npm run dev`
-- PRs welcome after approval
+- PRs welcome after  approval
 
 ---
