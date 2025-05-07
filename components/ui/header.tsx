@@ -53,7 +53,7 @@ export default function Header() {
           {/* Dynamic Waitlist Counter */}
           <ul className="flex flex-1 items-center justify-end gap-3">
             <li className="bg-blue-50 text-blue-700 px-4 py-1 rounded-full text-sm font-medium border border-blue-200 animate-pulse">
-              👥 {waitlistCount.toLocaleString()} on waiting
+              👥 {waitlistCount.toLocaleString()} on waitlist
             </li>
           </ul>
 

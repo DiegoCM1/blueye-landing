@@ -38,14 +38,14 @@ export default function FeaturesPlanet() {
                       alt="Real-Time Alerts"
                     />
                     <Image
-                      className="absolute  left-50 lg:left-56 top-7 z-10 animate-[float_4s_ease-in-out_infinite_1s_both] opacity-30 transition-opacity duration-500 rounded-2xl h-18 w-50"
+                      className="absolute  left-50 lg:left-56 top-7 z-10 animate-[float_4s_ease-in-out_infinite_1s_both] opacity-60 transition-opacity duration-500 rounded-2xl h-18 w-50"
                       src={PlanetTagImg02}
                       width={241}
                       // height={56}
                       alt="Offline Emergency Mode"
                     />
                     <Image
-                      className="absolute -left-0 lg:-left-20 bottom-24 z-10 animate-[float_4s_ease-in-out_infinite_2s_both] opacity-25 transition-opacity duration-500 rounded-2xl h-18 w-50"
+                      className="absolute -left-0 lg:-left-20 bottom-24 z-10 animate-[float_4s_ease-in-out_infinite_2s_both] opacity-55 transition-opacity duration-500 rounded-2xl h-18 w-50"
                       src={PlanetTagImg03}
                       // width={243}
                       // height={56}
