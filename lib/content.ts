@@ -146,6 +146,12 @@ export interface Plan {
   features: string[];
   cta: string;
   featured?: boolean;
+  ctaHref?: string;
+  ctaExternal?: boolean;
+  monthlyHref?: string;
+  annualHref?: string;
+  monthlyLabel?: string;
+  annualLabel?: string;
 }
 
 export const PLANS: Plan[] = [

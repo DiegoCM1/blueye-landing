@@ -1,4 +1,5 @@
 import Image from "next/image";
+import { STORE_URLS } from "@/lib/site";
 
 /**
  * App Store + Google Play download badges.
@@ -19,8 +20,10 @@ export default function AppBadges({
     <div className={`flex items-center gap-2 sm:gap-3 ${className}`}>
       {showApple && (
         <a
-          href="#"
+          href={STORE_URLS.ios}
           aria-label="Descargar en App Store"
+          target="_blank"
+          rel="noreferrer"
           className="transition-transform hover:-translate-y-0.5"
         >
           <Image
@@ -35,8 +38,10 @@ export default function AppBadges({
       )}
       {showGoogle && (
         <a
-          href="#"
+          href={STORE_URLS.android}
           aria-label="Disponible en Google Play"
+          target="_blank"
+          rel="noreferrer"
           className="transition-transform hover:-translate-y-0.5"
         >
           <Image

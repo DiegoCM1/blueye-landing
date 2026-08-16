@@ -21,6 +21,21 @@ npm run start    # serve the production build
 npm run lint     # ESLint
 ```
 
+## Membership download flow
+
+The membership cards now prioritize app download. The intended flow is:
+
+1. The user chooses a membership on the landing page.
+2. The landing page sends them to download the app.
+3. The membership is purchased inside the app on the user's phone.
+
+Configure these public environment variables in `.env.local`:
+
+```bash
+NEXT_PUBLIC_APPLE_STORE_URL=https://apps.apple.com/your-app
+NEXT_PUBLIC_GOOGLE_PLAY_URL=https://play.google.com/store/apps/details?id=your.app
+```
+
 ## Project structure
 
 ```
